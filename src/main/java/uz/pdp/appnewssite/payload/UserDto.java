@@ -21,5 +21,5 @@ public class UserDto {
     private String password;
 
     @NotNull(message = "lavozim must not be null")
-    private Integer lavozimId;
+    private Long lavozimId;
 }
